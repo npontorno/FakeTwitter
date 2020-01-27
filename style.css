@@ -1,0 +1,167 @@
+/* Selectors */
+body
+{
+    background-color: blue;
+}
+
+#pageHeader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background-color: blue;
+}
+
+#pageHeader span
+{
+    padding: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+#pageHeader span button
+{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#pageHeader span textarea
+{
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+#root
+{
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+#root div.obj
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin: 10px;
+    border-style: groove;
+    border-width: 5px;
+}
+
+#root button
+{
+    margin-left: 10px;
+}
+
+#root .body
+{
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 3px;
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+}
+
+#replyBox
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+}
+
+#replyBox textarea
+{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#replyBox button
+{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#retweetBox
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+}
+
+#retweetBox textarea
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#retweetBox button
+{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#editBox
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+}
+
+#editBox textarea
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#editBox button
+{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#viewRepliesBox
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+}
+
+#viewRepliesBox span
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#viewRepliesBox button
+{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.cancel
+{
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-left: 30px;
+}

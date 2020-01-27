@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>A09 Twitter</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div id = "pageHeader">
+            <span> A09 Twitter
+            <textarea id = "postTextArea" rows="1" cols="100">Enter your tweet here :)</textarea>
+            <button id = "postTweetButton" type = "button">Post Tweet</button>
+            </span>
+        </div>
+
+        <div id="root"></div>
+
+        <!-- Include links to JavaScript files below -->
+        <script src="./node_modules/axios/dist/axios.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="render.js" type="module"></script>
+    </body>
+</html>
